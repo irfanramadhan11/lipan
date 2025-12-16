@@ -583,13 +583,13 @@ section,
 }
 
 .about .about-content .section-header {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .about .about-content .section-header h2 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   color: var(--heading-color);
 }
 
@@ -597,7 +597,7 @@ section,
   font-size: 18px;
   color: var(--accent-color);
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .about .about-content .story-text {
@@ -1630,6 +1630,22 @@ section,
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 768px) {
+  .hero .hero-content .hero-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .hero .hero-content .hero-actions .btn {
+    width: 200px;
+    text-align: center;
+  }
+}
+
 
 @media (max-width: 576px) {
   .error-404 .helpful-links .links-grid {
