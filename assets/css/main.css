@@ -1342,6 +1342,7 @@ section,
   color: color-mix(in srgb, var(--contrast-color), transparent 20%);
   font-size: 15px;
   line-height: 1.8;
+  text-align: center;
 }
 
 .footer .social-links {
@@ -1402,6 +1403,7 @@ section,
   .footer p {
     font-size: 14px;
     line-height: 1.7;
+    text-align: center;
   }
   
   .footer .social-links {
@@ -1436,6 +1438,7 @@ section,
   
   .footer p {
     font-size: 13px;
+    text-align: center;
   }
   
   .footer .copyright {
