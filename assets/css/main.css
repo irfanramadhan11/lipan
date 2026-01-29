@@ -1179,7 +1179,7 @@ section,
 .contact .contact-card > p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .contact .contact-details {
